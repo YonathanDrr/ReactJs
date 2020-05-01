@@ -204,8 +204,34 @@ export default class CarsList extends Component {
  */
 
 
+//importar desde otra pagina
+/* import React ,{Component} from 'react';
+/* import Constructor from './sections/constructor';
+import ComponentWillMount from './sections/ComponentWillMount';
+import EjemploDeComponentDidMount from './sections/ComponentDidMount'; */
+
+/* 
+
+function App() {
+  
+   
+  return (
+    <div className="App">
+           <Constructor/>
+           <ComponentWillMount/>
+           <EjemploDeComponentDidMount/>
+
+     
+    </div>
+  );
+}
+export default App;
+ */
+ 
+
 
 import React ,{Component} from 'react';
+import FetchExample from './sections/fetch-example';
 
 
 function App() {
@@ -213,13 +239,9 @@ function App() {
    
   return (
     <div className="App">
-    
-     
+          <FetchExample/>
     </div>
   );
 }
 export default App;
-
-
-
 
